@@ -41,7 +41,6 @@
             }
         }
         .hero__right{
-            display: block;
             .hero__right__card{
                 width: 510px;
                 height: 510px;
@@ -76,7 +75,6 @@
                 }
             }
             .hero__right{
-                display: none;
                 order: 2;
             }
         }
@@ -121,5 +119,5 @@
             }
         }
     }
-    }
+}
 }

@@ -3,4 +3,15 @@
     .trending__title{
         color: white;
     }
+    .trending__cards__wrapper{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+@media (max-width: 1300px) {
+    
 }

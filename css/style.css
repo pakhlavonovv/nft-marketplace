@@ -112,9 +112,6 @@
   color: white;
   display: flex;
 }
-.hero .hero__wrapper .hero__right {
-  display: block;
-}
 .hero .hero__wrapper .hero__right .hero__right__card {
   width: 510px;
   height: 510px;
@@ -146,7 +143,6 @@
     margin: 0 auto;
   }
   .hero .hero .hero__wrapper .hero__right {
-    display: none;
     order: 2;
   }
 }
@@ -183,6 +179,14 @@
 }
 .trending .trending__title {
   color: white;
+}
+.trending .trending__cards__wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 * {
